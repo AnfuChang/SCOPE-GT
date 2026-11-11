@@ -1,0 +1,30 @@
+shared:
+  runs: 1
+  epochs: 1000
+  eval_step: 50
+  patience: 200
+  seed: 123
+dataset:
+  name: Citeseer
+  data_dir: ./data
+  metric_type: accuracy
+opt:
+  lr: 0.001
+  wd: 0.001
+  loss_func: cross_entropy
+model:
+  hid_channels: 512
+  cb_channels: 16
+  num_layers: 2
+  num_heads: 4
+  T: 3
+  v_threshold: 1.0
+  v_reset: 0.0
+  neuron: PLIF
+  dropout: 0.5
+  attn_dropout: 0.5
+  coding_type: default
+  maximum_codes_num: 
+  normalize: True
+  enable_residual: False
+  enable_norm: False

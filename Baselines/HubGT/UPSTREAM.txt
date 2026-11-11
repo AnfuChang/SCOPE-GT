@@ -1,0 +1,2 @@
+upstream: https://github.com/gdmnl/HubGT
+commit:   5909099c4bfd45f0575ac989e5e92bdb883f2579

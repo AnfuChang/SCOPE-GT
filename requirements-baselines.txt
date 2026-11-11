@@ -1,0 +1,9 @@
+# Shared NPZ adapters. These are release installation requirements, not a recovered server lockfile.
+-r requirements-experiments.txt
+tqdm>=4.66
+numba>=0.60
+Cython>=3.0
+setuptools>=69
+# GT-SNT additionally needs torch-geometric; see docs/baselines.md.
+# HubGT additionally needs a Linux C++ compiler with OpenMP and a local extension build.
+# VCR's METIS option additionally needs a compatible DGL installation.

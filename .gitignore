@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+results/
+datasets/
+**/log/
+**/logs/
+**/results*/
+**/cache/
+*.pt
+*.npz
+!data/*.py

@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "version": "Source-file hashes in source_inventory.json identify this release snapshot.",
+  "methods": {
+    "graphgps": {
+      "folder": "GraphGPS",
+      "launcher": "run_graphgps.sh",
+      "entry": "npz_adapter/graphgps_node_baseline.py",
+      "implementation": "paper-guided reimplementation",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "exphormer": {
+      "folder": "Exphormer",
+      "launcher": "run_exphormer.sh",
+      "entry": "exphormer_npz.py",
+      "implementation": "paper-guided reimplementation",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "sgformer": {
+      "folder": "SGFormer",
+      "launcher": "run_sgformer.sh",
+      "entry": "sgformer_node/train_sgformer.py",
+      "implementation": "project NPZ adaptation; exact upstream revision not recorded",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "gtsnt": {
+      "folder": "GT_SNT",
+      "launcher": "run_gtsnt.sh",
+      "entry": "gtsnt_npz.py",
+      "implementation": "upstream model with NPZ/training adapter",
+      "upstream_url": "https://github.com/Zhhuizhe/GT-SNT",
+      "upstream_commit": "9b2962d83c844bc26865b2f81bb62b907fc66152",
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "nagphormer": {
+      "folder": "NAGphormer",
+      "launcher": "run_nagphormer.sh",
+      "entry": "baseline_suite.py",
+      "implementation": "project NPZ implementation; exact upstream revision not recorded",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "polyformer": {
+      "folder": "PolyFormer",
+      "launcher": "run_polyformer.sh",
+      "entry": "polyformer_node/train_polyformer.py",
+      "implementation": "adaptation from supplied upstream archive; exact revision not recorded",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "gophormer": {
+      "folder": "Gophormer",
+      "launcher": "run_gophormer.sh",
+      "entry": "gophormer_npz.py",
+      "implementation": "paper-guided dense reimplementation",
+      "upstream_url": "https://github.com/AndyJZhao/Gophormer",
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "ansgt": {
+      "folder": "ANS_GT",
+      "launcher": "run_ansgt.sh",
+      "entry": "ans_gt_npz.py",
+      "implementation": "project NPZ implementation; exact upstream revision not recorded",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "vcr": {
+      "folder": "VCR_Graphormer",
+      "launcher": "run_vcr_graphormer.sh",
+      "entry": "vcr_bilgt_baseline.py",
+      "implementation": "adapted architecture and project tokenization; exact upstream revision not recorded",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "gcformer": {
+      "folder": "GCFormer",
+      "launcher": "run_gcformer.sh",
+      "entry": "gcformer_npz.py",
+      "implementation": "upstream model with NPZ/training adapter",
+      "upstream_url": "https://github.com/JHL-HUST/GCFormer",
+      "upstream_commit": "75173ea85884e215d5b7b6cbec528c5bb907bd53",
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "nlgt": {
+      "folder": "NLGT",
+      "launcher": "run_nlgt.sh",
+      "entry": "nlgt_npz.py",
+      "implementation": "project NPZ implementation; exact upstream revision not recorded",
+      "upstream_url": null,
+      "upstream_commit": null,
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "swapgt": {
+      "folder": "SwapGT",
+      "launcher": "run_swapgt.sh",
+      "entry": "swapgt_npz.py",
+      "implementation": "upstream model with NPZ/training adapter",
+      "upstream_url": "https://github.com/JHL-HUST/SwapGT",
+      "upstream_commit": "92d727ac51e367e47dcc3363a2f0bc9ba85704bb",
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "hubgt": {
+      "folder": "HubGT",
+      "launcher": "run_hubgt.sh",
+      "entry": "hubgt_npz.py",
+      "implementation": "upstream model/index with NPZ/training adapter",
+      "upstream_url": "https://github.com/gdmnl/HubGT",
+      "upstream_commit": "5909099c4bfd45f0575ac989e5e92bdb883f2579",
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    },
+    "goat": {
+      "folder": "GOAT",
+      "launcher": "run_goat.sh",
+      "entry": "goat_npz.py",
+      "implementation": "upstream architecture ported to plain PyTorch with upstream VQ",
+      "upstream_url": "https://github.com/devnkong/GOAT",
+      "upstream_commit": "f29bfcd2e717d62c498616916972482c9f7a215b",
+      "effective_config": "provenance/effective_config_<pid>.json when launched with scripts/run_baseline.py"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+shared:
+  runs: 1
+  epochs: 1000
+  eval_step: 50
+  patience: 200
+  seed: 123
+dataset:
+  name: Physics
+  data_dir: ./data
+  metric_type: accuracy
+opt:
+  lr: 0.001
+  wd: 0.00001
+  loss_func: cross_entropy
+model:
+  hid_channels: 256
+  cb_channels: 8
+  num_layers: 1
+  num_heads: 4
+  T: 3
+  neuron: PLIF
+  v_threshold: 1.0
+  v_reset: 0.0
+  dropout: 0.2
+  attn_dropout: 0.5
+  coding_type: default
+  maximum_codes_num: null
+  normalize: True
+  enable_residual: True
+  enable_norm: False

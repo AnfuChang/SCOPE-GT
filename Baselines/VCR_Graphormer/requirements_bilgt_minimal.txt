@@ -1,0 +1,7 @@
+numpy
+scipy
+torch
+tqdm
+numba
+# Optional for strict METIS-style structure-aware partitioning:
+# dgl

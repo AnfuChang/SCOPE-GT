@@ -1,0 +1,2 @@
+upstream: https://github.com/JHL-HUST/GCFormer
+commit:   75173ea85884e215d5b7b6cbec528c5bb907bd53

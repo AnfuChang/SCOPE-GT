@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+DATA_ROOT=${DATA_ROOT:-/mnt/sdb/changaf25/sdust/datasets} \
+RUNS=${RUNS:-5} SEED=${SEED:-42} \
+EPOCHS=${EPOCHS:-1000} EVAL_EVERY=${EVAL_EVERY:-5} PATIENCE=${PATIENCE:-100} \
+HIDDEN_DIM=${HIDDEN_DIM:-256} GCN_LAYERS=${GCN_LAYERS:-2} \
+ALPHA=${ALPHA:-0.5} BETA=${BETA:-0.5} DROPOUT=${DROPOUT:-0.3} \
+LR=${LR:-0.005} WEIGHT_DECAY=${WEIGHT_DECAY:-0.0001} \
+TO_UNDIRECTED=${TO_UNDIRECTED:-1} METRIC=${METRIC:-acc} \
+bash run_sgformer.sh flickr

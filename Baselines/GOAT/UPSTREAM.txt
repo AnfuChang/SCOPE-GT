@@ -1,0 +1,4 @@
+upstream: https://github.com/devnkong/GOAT
+commit:   f29bfcd2e717d62c498616916972482c9f7a215b (2023-07-03)
+paper:    Kong, Chen, Kirchenbauer, Ni, Bruss, Goldstein. GOAT: A Global Transformer on Large-scale Graphs. ICML 2023
+official/ holds unmodified copies of every repository file (models, sampler, codebook, training script, node2vec scripts, README commands).

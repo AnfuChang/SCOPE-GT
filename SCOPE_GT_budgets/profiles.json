@@ -1,0 +1,21 @@
+{
+  "note": "Historical external NPZ adapter launcher recipes, without new baseline tuning. JSON overrides are recorded in every job.",
+  "nlgt": {
+    "defaults": {"fanouts": [10, 5, 2], "max_nodes": 168, "hid_dim": 128, "num_layers": 4, "num_heads": 2, "dim_feedforward": 512, "dropout": 0.1, "batch_size": 64, "eval_batch_size": 128, "num_workers": 0, "eval_votes": 10, "eval_every": 5, "optimizer": "sgd", "lr": 0.001, "lrf": 0.01, "weight_decay": 0.00005, "momentum": 0.9, "nesterov": false, "label_smoothing": 0.0, "grad_clip": 0.0, "epochs": 1000, "patience": 50, "strict_no_neighbor_labels": true},
+    "datasets": {"wikics": {}, "dblp": {}, "tolokers": {}, "coauthor_cs": {}, "minesweeper": {}, "pokec": {"eval_batch_size": 1024}, "ogbn_products": {"eval_batch_size": 1024}}
+  },
+  "nagphormer": {
+    "defaults": {"model": "nagphormer", "hid_dim": 512, "num_layers": 1, "num_heads": 8, "dim_feedforward": 1024, "dropout": 0.1, "hops": 7, "pe_dim": 15, "pe_dense_fallback_max_n": 10000, "lr": 0.001, "weight_decay": 0.00001, "batch_size": 2000, "eval_batch_size": 4096, "optimizer": "adamw", "epochs": 1000, "patience": 100, "eval_every": 5, "deterministic": true, "nag_cache_on_device": false, "nr_aug": "off"},
+    "datasets": {"wikics": {"hops": 3}, "dblp": {}, "tolokers": {}, "coauthor_cs": {"num_layers": 3, "hops": 3, "pe_dim": 10}, "minesweeper": {}, "pokec": {"hops": 10, "pe_dim": 3, "num_heads": 1}, "ogbn_products": {"hops": 10, "pe_dim": 3, "num_heads": 1}}
+  },
+  "sgformer": {
+    "defaults": {"hidden_dim": 64, "gcn_layers": 4, "trans_layers": 1, "alpha": 0.8, "beta": 0.5, "dropout": 0.3, "gnn_dropout": 0.5, "lr": 0.005, "weight_decay": 0.01, "gnn_weight_decay": 0.0005, "grad_clip": 1.0, "epochs": 1000, "eval_every": 5, "patience": 100, "to_undirected": 1, "feature_norm": "none", "train_mode": "full", "eval_mode": "full", "batch_size": 20000, "eval_batch_size": 50000, "arch": "adapter", "trans_heads": 1, "gnn_use_bn": 1, "gnn_use_residual": 1, "gnn_use_weight": 1, "gnn_use_init": 0, "gnn_use_act": 1, "trans_use_bn": 1, "trans_use_residual": 1, "trans_use_weight": 1, "trans_use_act": 0},
+    "datasets": {
+      "wikics": {}, "dblp": {}, "coauthor_cs": {},
+      "tolokers": {"hidden_dim": 96, "gcn_layers": 2, "lr": 0.01, "dropout": 0.4, "gnn_dropout": 0.4, "weight_decay": 0.00005, "gnn_weight_decay": 0.00005, "alpha": 0.5},
+      "minesweeper": {"hidden_dim": 96, "gcn_layers": 2, "lr": 0.01, "dropout": 0.4, "gnn_dropout": 0.4, "weight_decay": 0.00005, "gnn_weight_decay": 0.00005, "alpha": 0.5},
+      "pokec": {"gcn_layers": 2, "alpha": 0.5, "lr": 0.01, "dropout": 0.0, "gnn_dropout": 0.0, "weight_decay": 0.0, "gnn_weight_decay": 0.0, "arch": "official_large", "gnn_use_init": 1, "train_mode": "batch", "eval_mode": "full_cpu", "batch_size": 100000, "grad_clip": 0.0},
+      "ogbn_products": {"hidden_dim": 256, "gcn_layers": 3, "alpha": 0.5, "lr": 0.01, "dropout": 0.0, "gnn_dropout": 0.0, "weight_decay": 0.0, "gnn_weight_decay": 0.0, "arch": "official_large", "gnn_use_init": 1, "train_mode": "batch", "eval_mode": "full_cpu", "batch_size": 100000, "grad_clip": 0.0}
+    }
+  }
+}

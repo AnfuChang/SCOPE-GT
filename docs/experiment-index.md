@@ -1,0 +1,27 @@
+# Experiment and output index
+
+Commands run from the repository root with `DATA_BASE` set to the processed dataset directory. `SEEDS` defaults to `0 1 2 3 4` for the main experiment launchers, including resource sweeps, overlap sampling and transfer decomposition. Transfer controls and reference runs must use matching seed lists. `OUT` overrides the output directory of a shell launcher. Output paths describe files produced by the commands, not bundled experiment records. For Minesweeper, Roman, Ratings and Tolokers, `SPLIT_INDEX` selects one official fixed mask in the main launcher (default 0), and the five-seed mean/sample standard deviation is computed separately for that mask.
+
+| Paper study | Entry point | Repetition unit | Output index |
+|---|---|---|---|
+| Main classification | `bash scripts/run_main.sh [dataset ...]` | 5 independent training seeds | `results/main/<dataset>/<run>/training_summary.csv`, `seed<k>/metrics.json`, `history.csv`, `checkpoint.pt`, `test_predictions.npz` |
+| Predictive ablations | `bash scripts/run_ablation.sh [dataset ...]` | 5 paired training seeds | `results/ablation/<dataset>/<variant-run>/training_summary.csv` and per-seed records |
+| Encoder and base K/V sharing | `bash scripts/run_mechanism_a.sh` | 5 paired seeds; 3 warmup + 10 measured epochs per layout | `results/mechanism_a/<dataset>/summary.csv`, `per_seed.csv`, `paired_differences.csv`, `study.json`; nested `<dataset>/seed_<k>/<layout>/spec.json` and `result.json` |
+| Exact evidence retrieval | `bash scripts/run_mechanism_b.sh` | 5 paired sampled workloads, 2,048 train centers each; one CPU retrieval pass per implementation/workload | `results/mechanism_b/<dataset>/summary.csv`, `per_seed.csv`, `paired_differences.csv`, `study.json`; nested `<dataset>/seed_<k>/<variant>/spec.json`, `result.json`, and evidence/equivalence records |
+| Batch-size cost curves | `bash scripts/run_batch_size.sh cost` | 5 paired cost seeds; 3 warmup + 10 measured epochs per B/layout/seed | `results/batch_size/<dataset>/cost/B<B>/seed<k>/`, `per_seed_cost.csv`, `summary_cost.csv` after collection |
+| Batch-size sharing statistics | `bash scripts/run_batch_size.sh sharing` | 5 sampler seeds; epoch 0, view 0; fixed order within each seed | `results/batch_size/<dataset>/sharing/seed<k>/`, `per_seed_sharing.csv`, `summary_sharing.csv` after collection |
+| Context/walk budgets | `bash scripts/run_budget.sh` | 5 training seeds per point; 5 checkpoint-only cold processes per seed | `results/budget/<dataset>/scope_gt/<config>/seed<k>/train/` and `infer_cold*/` |
+| Attention depth | `bash scripts/run_depth.sh` | 5 training seeds per depth | `results/depth/<dataset>/L<depth>/center/seed<k>/`, collected `summary/summary.csv` |
+| Relation/query motivation | `bash scripts/run_motivation.sh relation` or `query` | 5 paired seeds (0,1,2,3,4) by default; use `SEEDS="0 1 2"` for legacy three-seed runs | `results/motivation/relation/` or `query/` |
+| NLGT overlap illustration | `bash scripts/run_motivation.sh overlap` | 5 sampler seeds by default; the displayed illustration uses seed 0's first complete batch of 64 sequences | `results/motivation/overlap/` |
+| Native/+SCMB transfer | `bash scripts/run_transfer.sh` | 5 paired seeds per backbone/arm | `results/transfer/summary.csv`, `paired_summary.csv`, `transfer_table.tex` and per-run records |
+| FQ-LG/CQ-U transfer controls, optional CQ-E | `SEEDS="0 1 2 3 4" bash scripts/run_transfer_decompose.sh` | Five paired seeds by default, matching the native/SCMB reference | `results/transfer_decompose/<method>/summary.csv`, `pairing.csv`, `decomposition.csv`; see [transfer guide](transfer-decomposition.md) for combined reporting |
+| End-to-end efficiency | `bash scripts/run_efficiency.sh` | 5 independent seeds (0 through 4); full training-center traversal each epoch | `results/efficiency/summary.csv`, `per_seed.csv`, `failures.csv` and per-run records |
+
+The main classification output's timestamped run directory is selected by the launcher. Each run records the effective configuration and data/source hashes. A single seed's measured epochs are within-run observations; they are not independent seeds. Report the actual requested/completed seed count when aggregating. Main predictive means use sample standard deviation across independent training seeds; resource benchmark tables use the corresponding experiment's per-seed aggregates.
+
+The five-seed mechanism-sharing table replaces the earlier two-endpoint execution table. The historical batch-size curves and sharing statistics used seed 0; reproduce that scope with `bash scripts/run_batch_size.sh cost -- --cost-seed 0` or `bash scripts/run_batch_size.sh sharing -- --cost-seed 0`. New default five-seed outputs are stored separately, and the collector rejects combining legacy and multi-seed protocols in one dataset/study directory. The exact-retrieval benchmark is a fixed-request CPU microbenchmark, not whole-graph training or full-job wall-clock cost.
+
+Comparison, overlap, and transfer commands use the bundled NPZ adapters in `Baselines/`; `SCOPE_GT_BASELINES_ROOT` optionally overrides that tree. See [reproducibility notes](reproducibility.md) for retained operating points and sharing boundaries.
+
+Standalone baseline classification commands and their source/config/input records are documented in [baselines.md](baselines.md). These recipes are distinct from the common efficiency measurement windows.

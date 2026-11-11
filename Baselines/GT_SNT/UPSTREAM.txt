@@ -1,0 +1,5 @@
+upstream: https://github.com/Zhhuizhe/GT-SNT
+commit:   9b2962d83c844bc26865b2f81bb62b907fc66152
+paper:    Zhang, Li, Zhu, Zhong, Chen. GT-SNT: A Linear-Time Transformer for Large-Scale Graphs via Spiking Node Tokenization. AAAI 2026 (arXiv:2504.11840; v1 named GT-SVQ)
+licence:  the repository has no licence file (no LICENSE / licence header) -- the code is used for academic comparison only
+official/ holds unmodified copies of every file of the repository (models, training scripts, per-dataset configs).

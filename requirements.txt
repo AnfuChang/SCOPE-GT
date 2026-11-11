@@ -1,0 +1,9 @@
+# SCOPE-GT and all measurement harnesses. Versions of the paper environment (Python 3.10, CUDA 12.4).
+# Install the CUDA build of torch first, e.g.
+#   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cu124
+# (the upstream PolynomialDecayLR of SwapGT / GCFormer / VCR-Graphormer passes `verbose` to the torch
+#  LR scheduler, which recent torch releases no longer accept)
+torch==2.4.1
+numpy==2.1.2
+scipy==1.15.3
+scikit-learn==1.7.0

@@ -1,0 +1,32 @@
+shared:
+  runs: 1
+  epochs: 2000
+  eval_step: 20
+  patience: 200
+  seed: 123
+dataset:
+  name: ogbn-arxiv
+  data_dir: ./data
+  metric_type: accuracy
+loder:
+  enable_sampler: False
+  batch_size: 4096
+opt:
+  lr: 0.001
+  wd: 0.0001
+  loss_func: cross_entropy
+model:
+  hid_channels: 128
+  cb_channels: 6
+  num_layers: 4
+  num_heads: 2
+  T: 8
+  neuron: PLIF
+  v_threshold: 0.6
+  dropout: 0.2
+  attn_dropout: 0.8
+  coding_type: default
+  maximum_codes_num: null
+  normalize: True
+  enable_residual: False
+  enable_norm: True

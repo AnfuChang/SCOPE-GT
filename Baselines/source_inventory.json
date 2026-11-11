@@ -1,0 +1,1112 @@
+{
+  "schema": 1,
+  "snapshot_sha256": "b3192fe141b3352d64bb3ad430e09f6bb290486c2473ae8c0c47c7f44fba684d",
+  "identity_scope": "Packaged baseline source snapshot; not a recovered historical server revision",
+  "files": {
+    "ANS_GT/ans_gt_npz.py": {
+      "sha256": "3569d16a242e93e920957853a1f4eb78829a01623f8c06f16f0d826eed18edd4",
+      "bytes": 51806,
+      "source_path": "ANS_GT/ans_gt_npz.py",
+      "source_sha256": "808d7ab9e0af2dbf34e3a8a28731f88e1de21ae0a65caf33430742c78bff134d"
+    },
+    "ANS_GT/run_ansgt.sh": {
+      "sha256": "4818698845d001b90a60bd5c0b3c18d9768e28c7a4ab92d2bd06302fa3e992ed",
+      "bytes": 7612,
+      "source_path": "ANS_GT/run_ansgt.sh",
+      "source_sha256": "406934d2520f3b051b5b67d742fcb7b00101ed552fa7a2299a79c66dfaac8dd3"
+    },
+    "common/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "common/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "common/data.py": {
+      "sha256": "a2aa72e88add587fffd71379995f7e48332c70d4682252c71a31337f8d6d2c54",
+      "bytes": 3478,
+      "source_path": "common/data.py",
+      "source_sha256": "a2aa72e88add587fffd71379995f7e48332c70d4682252c71a31337f8d6d2c54"
+    },
+    "common/protocol.py": {
+      "sha256": "a540ad3d87017c683ea33dce83bbf4000c35351806ca7e272aa90ec4758178f9",
+      "bytes": 22600,
+      "source_path": "common/protocol.py",
+      "source_sha256": "a540ad3d87017c683ea33dce83bbf4000c35351806ca7e272aa90ec4758178f9"
+    },
+    "common/provenance.py": {
+      "sha256": "d46726f76e259d75d3e4b7a3b3c5ae77fe13e94425ba0059a0fd04c03f73d253",
+      "bytes": 1341,
+      "origin": "release integration/documentation"
+    },
+    "common/token_utils.py": {
+      "sha256": "b98a3e1b6ceb1400087c1e09381fd530a51ed61e3ccf867a34d44d4f58054886",
+      "bytes": 4594,
+      "source_path": "common/token_utils.py",
+      "source_sha256": "b98a3e1b6ceb1400087c1e09381fd530a51ed61e3ccf867a34d44d4f58054886"
+    },
+    "Exphormer/exphormer_npz.py": {
+      "sha256": "bf962d080fff9ddde8360e74f9f61ef2d121465db4ae18537adb4b65a39d8759",
+      "bytes": 42936,
+      "source_path": "Exphormer/bilgt_exphormer_baseline.py",
+      "source_sha256": "f1b50e7e069107b7ee793327b0c5f265ada88171fab64a8636c5cfc3c54c9f24"
+    },
+    "Exphormer/LICENSE": {
+      "sha256": "f7c70077a9ba8524b0f73672ee17da050f4688f450bdde039f066a1c75e91c3b",
+      "bytes": 1133,
+      "source_path": "Exphormer/LICENSE",
+      "source_sha256": "f7c70077a9ba8524b0f73672ee17da050f4688f450bdde039f066a1c75e91c3b"
+    },
+    "Exphormer/README_BILGT_EXPHORMER.md": {
+      "sha256": "afeb609ed7bfe50d78d09f4999059319dc222486fe9b0cc1f7a86a974262bdb9",
+      "bytes": 4457,
+      "source_path": "Exphormer/README_BILGT_EXPHORMER.md",
+      "source_sha256": "1dd77f4e3202897c8965e3df44ecde70890aed14f5f21dcf723450eeec8c2073"
+    },
+    "Exphormer/run_exphormer.sh": {
+      "sha256": "faa2203c685bfb99324dcffe1aa029125164c78e83fb7af48ff8182f8c1f0ec6",
+      "bytes": 6513,
+      "source_path": "Exphormer/run_exphormer.sh",
+      "source_sha256": "592c4c388440dfe55f5a7d36c2ad08a4d57ed365028f26abfa4cffd965430c8d"
+    },
+    "GCFormer/data.py": {
+      "sha256": "11bb733dc61c646ff0ed0e075e2d63b6ff8ef3522ad9c54fb1bbf9a8353f3d98",
+      "bytes": 716,
+      "source_path": "GCFormer/data.py",
+      "source_sha256": "11bb733dc61c646ff0ed0e075e2d63b6ff8ef3522ad9c54fb1bbf9a8353f3d98"
+    },
+    "GCFormer/early_stop.py": {
+      "sha256": "31d7cef4f5a2215bdc05d767255bfa6604e4ac3435a503a6a35cf9ec5e45f1d1",
+      "bytes": 3099,
+      "source_path": "GCFormer/early_stop.py",
+      "source_sha256": "31d7cef4f5a2215bdc05d767255bfa6604e4ac3435a503a6a35cf9ec5e45f1d1"
+    },
+    "GCFormer/gcformer_npz.py": {
+      "sha256": "53edb45a201a3c28365696381c252a3ca08f96ec5b4a8f09e661f1b2d9d70fc8",
+      "bytes": 9526,
+      "source_path": "GCFormer/gcformer_npz.py",
+      "source_sha256": "f44edf0b84347c420abc40f7ec15a9fa23dec329c2a415c51c8301d2c4bc4f11"
+    },
+    "GCFormer/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "source_path": "GCFormer/LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "GCFormer/lr.py": {
+      "sha256": "815b357e5580f078b3874dcce08926aa0c39c95ae7f0107449530d6ca706af1f",
+      "bytes": 1135,
+      "source_path": "GCFormer/lr.py",
+      "source_sha256": "815b357e5580f078b3874dcce08926aa0c39c95ae7f0107449530d6ca706af1f"
+    },
+    "GCFormer/model_mix.py": {
+      "sha256": "5c4abeeb082878024ced3b63865e03d2aa9a1c81ced0669d792b9b21b9cc382b",
+      "bytes": 8494,
+      "source_path": "GCFormer/model_mix.py",
+      "source_sha256": "5c4abeeb082878024ced3b63865e03d2aa9a1c81ced0669d792b9b21b9cc382b"
+    },
+    "GCFormer/README.md": {
+      "sha256": "1351c17afa3e8ff1e5ca0f2b906771a123fd909d406b5fcb2d30d9da67f6516f",
+      "bytes": 1193,
+      "source_path": "GCFormer/README.md",
+      "source_sha256": "1351c17afa3e8ff1e5ca0f2b906771a123fd909d406b5fcb2d30d9da67f6516f"
+    },
+    "GCFormer/run_gcformer.sh": {
+      "sha256": "ecc1877a1d0c0ea93294ac9b1821e167703ec74169f3d46b15ad3b5e39780400",
+      "bytes": 6216,
+      "source_path": "GCFormer/run_gcformer.sh",
+      "source_sha256": "ecc1877a1d0c0ea93294ac9b1821e167703ec74169f3d46b15ad3b5e39780400"
+    },
+    "GCFormer/Solo.sh": {
+      "sha256": "a43c19c5bd4ad61b1b59ef0f021fdf9c043e14f2bf98b56de757337f2fd0d9da",
+      "bytes": 2587,
+      "source_path": "GCFormer/Solo.sh",
+      "source_sha256": "a43c19c5bd4ad61b1b59ef0f021fdf9c043e14f2bf98b56de757337f2fd0d9da"
+    },
+    "GCFormer/train_test.py": {
+      "sha256": "2860eb6219ba1bb11582f888f5371f20b739484478c3d590a18878fde42d2556",
+      "bytes": 8626,
+      "source_path": "GCFormer/train_test.py",
+      "source_sha256": "2860eb6219ba1bb11582f888f5371f20b739484478c3d590a18878fde42d2556"
+    },
+    "GCFormer/UPSTREAM.txt": {
+      "sha256": "2c54aef7c967461fa5feb7d7da07de4445dc6da737e9cdef9506819146af8def",
+      "bytes": 98,
+      "source_path": "GCFormer/UPSTREAM.txt",
+      "source_sha256": "2c54aef7c967461fa5feb7d7da07de4445dc6da737e9cdef9506819146af8def"
+    },
+    "GCFormer/utils.py": {
+      "sha256": "7feffa8c46cd2801cdc8a495bd7d9dd8717f33b81887b1b5a68139a102b9cf73",
+      "bytes": 8508,
+      "source_path": "GCFormer/utils.py",
+      "source_sha256": "7feffa8c46cd2801cdc8a495bd7d9dd8717f33b81887b1b5a68139a102b9cf73"
+    },
+    "GOAT/goat_model.py": {
+      "sha256": "de4a262d9688ac944b39b3dc5b597f0408e0dfec18cd4c0e5eb607a96b309d1e",
+      "bytes": 14152,
+      "source_path": "GOAT/goat_model.py",
+      "source_sha256": "de4a262d9688ac944b39b3dc5b597f0408e0dfec18cd4c0e5eb607a96b309d1e"
+    },
+    "GOAT/goat_npz.py": {
+      "sha256": "77425e7ca13d24dd27e78cf1a0adb8634790b37ea33a97226c46e794a52d0e8a",
+      "bytes": 11751,
+      "source_path": "GOAT/goat_npz.py",
+      "source_sha256": "f1d64eaa4e74560ee5137443d98ac789b7d422fb2dca1b592ffc9bd9115d2372"
+    },
+    "GOAT/goat_sampler.py": {
+      "sha256": "d0c16c3a8a19f2a38431295b2cc9a9bc9a7dc605c75951b6175b8fdedd16b80f",
+      "bytes": 7475,
+      "source_path": "GOAT/goat_sampler.py",
+      "source_sha256": "d0c16c3a8a19f2a38431295b2cc9a9bc9a7dc605c75951b6175b8fdedd16b80f"
+    },
+    "GOAT/LICENSE": {
+      "sha256": "a0547254f2fdf2df76bcab4121f4ad82335891f55bbc2b380c4cc252a5e97f34",
+      "bytes": 1067,
+      "source_path": "GOAT/LICENSE",
+      "source_sha256": "a0547254f2fdf2df76bcab4121f4ad82335891f55bbc2b380c4cc252a5e97f34"
+    },
+    "GOAT/node2vec_pe.py": {
+      "sha256": "ce38200b7e740258ef3f069f6226941cfeaea44eb2c22f2a11e0e117d80157b4",
+      "bytes": 6278,
+      "source_path": "GOAT/node2vec_pe.py",
+      "source_sha256": "ce38200b7e740258ef3f069f6226941cfeaea44eb2c22f2a11e0e117d80157b4"
+    },
+    "GOAT/official/arxiv_ERM_ns.py": {
+      "sha256": "5052b4ad18ec1b306387399750d31df6e808fed8ce469d25bb2e7cf4a5622397",
+      "bytes": 23667,
+      "source_path": "GOAT/official/arxiv_ERM_ns.py",
+      "source_sha256": "5052b4ad18ec1b306387399750d31df6e808fed8ce469d25bb2e7cf4a5622397"
+    },
+    "GOAT/official/data.py": {
+      "sha256": "0dde9ef61751eab28079250dd663480f9da1c966a4c5b68b379df1a5717dc31b",
+      "bytes": 8073,
+      "source_path": "GOAT/official/data.py",
+      "source_sha256": "0dde9ef61751eab28079250dd663480f9da1c966a4c5b68b379df1a5717dc31b"
+    },
+    "GOAT/official/large_model.py": {
+      "sha256": "6e608811cb4af692535207b00b4e712c00aaed664e4582713cead6d11cbab318",
+      "bytes": 11871,
+      "source_path": "GOAT/official/large_model.py",
+      "source_sha256": "6e608811cb4af692535207b00b4e712c00aaed664e4582713cead6d11cbab318"
+    },
+    "GOAT/official/LICENSE": {
+      "sha256": "a0547254f2fdf2df76bcab4121f4ad82335891f55bbc2b380c4cc252a5e97f34",
+      "bytes": 1067,
+      "source_path": "GOAT/official/LICENSE",
+      "source_sha256": "a0547254f2fdf2df76bcab4121f4ad82335891f55bbc2b380c4cc252a5e97f34"
+    },
+    "GOAT/official/pos_enc/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "GOAT/official/pos_enc/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "GOAT/official/pos_enc/arxiv_node2vec.py": {
+      "sha256": "5a2bdbadb2cea28165843d0be37c711fc6fbdb4c4d6a777ec259be9b9ae087de",
+      "bytes": 2533,
+      "source_path": "GOAT/official/pos_enc/arxiv_node2vec.py",
+      "source_sha256": "5a2bdbadb2cea28165843d0be37c711fc6fbdb4c4d6a777ec259be9b9ae087de"
+    },
+    "GOAT/official/pos_enc/eigen.py": {
+      "sha256": "4b2318f2b4f8abc340113097f35266ddb1f62f6414b3d4f94bc7ad2ad94fd175",
+      "bytes": 924,
+      "source_path": "GOAT/official/pos_enc/eigen.py",
+      "source_sha256": "4b2318f2b4f8abc340113097f35266ddb1f62f6414b3d4f94bc7ad2ad94fd175"
+    },
+    "GOAT/official/pos_enc/genius_node2vec.py": {
+      "sha256": "71a30027beaf1aa09acd19a82078decdbbbb37592aaf92bc111b883faf2e2435",
+      "bytes": 2384,
+      "source_path": "GOAT/official/pos_enc/genius_node2vec.py",
+      "source_sha256": "71a30027beaf1aa09acd19a82078decdbbbb37592aaf92bc111b883faf2e2435"
+    },
+    "GOAT/official/pos_enc/loader.py": {
+      "sha256": "a286dc4e1b23bdb8f0e24ac220584da4f807a06a170d8b64800038a4b2e97806",
+      "bytes": 3062,
+      "source_path": "GOAT/official/pos_enc/loader.py",
+      "source_sha256": "a286dc4e1b23bdb8f0e24ac220584da4f807a06a170d8b64800038a4b2e97806"
+    },
+    "GOAT/official/pos_enc/pokec_node2vec.py": {
+      "sha256": "9725d7ca2a5cbc78de5f5b30dfd29b4f2f9ca33ed4f545147d6ecbdbc415cc1d",
+      "bytes": 2321,
+      "source_path": "GOAT/official/pos_enc/pokec_node2vec.py",
+      "source_sha256": "9725d7ca2a5cbc78de5f5b30dfd29b4f2f9ca33ed4f545147d6ecbdbc415cc1d"
+    },
+    "GOAT/official/pos_enc/products_node2vec.py": {
+      "sha256": "fe12424f87af049bc107e3cfe40c247ba8240c775bd895ab7e89c29d80a19048",
+      "bytes": 2300,
+      "source_path": "GOAT/official/pos_enc/products_node2vec.py",
+      "source_sha256": "fe12424f87af049bc107e3cfe40c247ba8240c775bd895ab7e89c29d80a19048"
+    },
+    "GOAT/official/pos_enc/snap_patents_node2vec.py": {
+      "sha256": "024103daba213c8d9551539c18796400af767d1aa06ee2ff7654cc8700e2ee75",
+      "bytes": 2468,
+      "source_path": "GOAT/official/pos_enc/snap_patents_node2vec.py",
+      "source_sha256": "024103daba213c8d9551539c18796400af767d1aa06ee2ff7654cc8700e2ee75"
+    },
+    "GOAT/official/pos_enc/twitch-gamers_node2vec.py": {
+      "sha256": "cebc2600ae6f2e49da15852b2c7815b39c317e2f832a33c601f8bdce9a0072f6",
+      "bytes": 2343,
+      "source_path": "GOAT/official/pos_enc/twitch-gamers_node2vec.py",
+      "source_sha256": "cebc2600ae6f2e49da15852b2c7815b39c317e2f832a33c601f8bdce9a0072f6"
+    },
+    "GOAT/official/README.md": {
+      "sha256": "38f43e090a14ced0c8dbe8a45b96b912eb579a31f137790d015cce8e12d54fd3",
+      "bytes": 4065,
+      "source_path": "GOAT/official/README.md",
+      "source_sha256": "38f43e090a14ced0c8dbe8a45b96b912eb579a31f137790d015cce8e12d54fd3"
+    },
+    "GOAT/official/requirements.txt": {
+      "sha256": "8c4ac5bf724f7c93ab328d494a6a223193d7479f27206fe2dbebb30925659468",
+      "bytes": 2104,
+      "source_path": "GOAT/official/requirements.txt",
+      "source_sha256": "8c4ac5bf724f7c93ab328d494a6a223193d7479f27206fe2dbebb30925659468"
+    },
+    "GOAT/official/sampler.py": {
+      "sha256": "44bf3cbb8e5d7f1dfb242a6d6638922e0814bd636e7715fec602a451066733fa",
+      "bytes": 16344,
+      "source_path": "GOAT/official/sampler.py",
+      "source_sha256": "44bf3cbb8e5d7f1dfb242a6d6638922e0814bd636e7715fec602a451066733fa"
+    },
+    "GOAT/official/vq.py": {
+      "sha256": "6958db1ab95e2c2ebdbd6a76fbfde9a559b739741a317b271a4e23e6b529e6f4",
+      "bytes": 2797,
+      "source_path": "GOAT/official/vq.py",
+      "source_sha256": "6958db1ab95e2c2ebdbd6a76fbfde9a559b739741a317b271a4e23e6b529e6f4"
+    },
+    "GOAT/README.md": {
+      "sha256": "b8d74c328b9f8276a28e08409cbfba1f94a7f8b6229aa04a30d985e7bc5204b2",
+      "bytes": 2946,
+      "source_path": "GOAT/README.md",
+      "source_sha256": "b8d74c328b9f8276a28e08409cbfba1f94a7f8b6229aa04a30d985e7bc5204b2"
+    },
+    "GOAT/run_goat.sh": {
+      "sha256": "25e17f22fc93b749a3614e3260b9fad2017e28f45df37a2a0af9cb0835dbb8cc",
+      "bytes": 6150,
+      "source_path": "GOAT/run_goat.sh",
+      "source_sha256": "25e17f22fc93b749a3614e3260b9fad2017e28f45df37a2a0af9cb0835dbb8cc"
+    },
+    "GOAT/UPSTREAM.txt": {
+      "sha256": "406683a3ac995a466ad4bf417a0666c22eb942a64cd7c5a13719e0cb7e31632e",
+      "bytes": 365,
+      "source_path": "GOAT/UPSTREAM.txt",
+      "source_sha256": "406683a3ac995a466ad4bf417a0666c22eb942a64cd7c5a13719e0cb7e31632e"
+    },
+    "Gophormer/gophormer_npz.py": {
+      "sha256": "d9e1b8f12d30d2bd62834278ef41e325529a3b3b773aa0b503fa797ca8130cac",
+      "bytes": 23431,
+      "source_path": "Gophormer/gophormer_npz.py",
+      "source_sha256": "774322704f3210814d083499596b42fa636d8792e475d3dd52d9881999af5976"
+    },
+    "Gophormer/run_gophormer.sh": {
+      "sha256": "f6ad991d67b3217de74877fe163970b2aaefea3dfd5b9a45ccdced3ebdddda41",
+      "bytes": 6207,
+      "source_path": "Gophormer/run_gophormer.sh",
+      "source_sha256": "4ea97cc32b53d95cc090e88814d279e291132489ede852d6f3c7ec3bbb04e2bd"
+    },
+    "GraphGPS/LICENSE": {
+      "sha256": "f7c70077a9ba8524b0f73672ee17da050f4688f450bdde039f066a1c75e91c3b",
+      "bytes": 1133,
+      "source_path": "GraphGPS/LICENSE",
+      "source_sha256": "f7c70077a9ba8524b0f73672ee17da050f4688f450bdde039f066a1c75e91c3b"
+    },
+    "GraphGPS/npz_adapter/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "GraphGPS/bilgt_adapter/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "GraphGPS/npz_adapter/graphgps_node_baseline.py": {
+      "sha256": "f8e1c630535151a8d0486982b092d41a6425a9abef4f126210a628937e961dc8",
+      "bytes": 43124,
+      "source_path": "GraphGPS/bilgt_adapter/graphgps_node_baseline.py",
+      "source_sha256": "247deb5a01c52fe4f125948f4835ba2f8b9bbba14b75a11d733ef1f8dde3d73a"
+    },
+    "GraphGPS/README_BILGT_GRAPHGPS.md": {
+      "sha256": "d14f9a742ff37667eb5cbd3eb8cafa5d7aace470d49e15defda7a75966584aa6",
+      "bytes": 3725,
+      "source_path": "GraphGPS/README_BILGT_GRAPHGPS.md",
+      "source_sha256": "3e52bf9f7b352eeb042090956d5098515716fe422f946e744b24472f808885db"
+    },
+    "GraphGPS/run_graphgps.sh": {
+      "sha256": "1da1fc21b50deaf30fe9ef0ecadaca42a68cc15c1eb35d9db5fb1e691b45a0c2",
+      "bytes": 7645,
+      "source_path": "GraphGPS/run_graphgps.sh",
+      "source_sha256": "55c3c15a322be5f25d9803c5c31ee3232b5dd5b97879705e26beaa6d5d7caa77"
+    },
+    "GT_SNT/gtsnt_npz.py": {
+      "sha256": "1ff360fefa20f10b9e8578d6c7cd992d6b011d7adaa83cc7015ebea2f2079984",
+      "bytes": 19623,
+      "source_path": "GT_SNT/gtsnt_npz.py",
+      "source_sha256": "3df7e4f67952a36e406940b868d0d3fb3c187966e98259af1252f3c5a0d15efa"
+    },
+    "GT_SNT/official/config/citeseer.yaml": {
+      "sha256": "2a5d9beb8b79cba1290593c2b4409881ef501c3232960177c70a56e371bf948d",
+      "bytes": 506,
+      "source_path": "GT_SNT/official/config/citeseer.yaml",
+      "source_sha256": "2a5d9beb8b79cba1290593c2b4409881ef501c3232960177c70a56e371bf948d"
+    },
+    "GT_SNT/official/config/cora.yaml": {
+      "sha256": "59c2960dea1c4108ac95337a709dff3c396e2a4ee1c618c161c282c63c6cb81b",
+      "bytes": 501,
+      "source_path": "GT_SNT/official/config/cora.yaml",
+      "source_sha256": "59c2960dea1c4108ac95337a709dff3c396e2a4ee1c618c161c282c63c6cb81b"
+    },
+    "GT_SNT/official/config/cs.yaml": {
+      "sha256": "0f1631a6fa0fc9a4152521e429f1355890961d22eaaa2b7b2f87e9a02b818f56",
+      "bytes": 499,
+      "source_path": "GT_SNT/official/config/cs.yaml",
+      "source_sha256": "0f1631a6fa0fc9a4152521e429f1355890961d22eaaa2b7b2f87e9a02b818f56"
+    },
+    "GT_SNT/official/config/ogbn-arxiv.yaml": {
+      "sha256": "f97a95a41dc19ebe2b41cfe04df66101fc66bb4c676b84a70241f36f92cfc375",
+      "bytes": 548,
+      "source_path": "GT_SNT/official/config/ogbn-arxiv.yaml",
+      "source_sha256": "f97a95a41dc19ebe2b41cfe04df66101fc66bb4c676b84a70241f36f92cfc375"
+    },
+    "GT_SNT/official/config/ogbn-products.yaml": {
+      "sha256": "8e67125e1e234b3da028578beb27bbbdd5d1ae6695e148a3378b7c14c8cc2992",
+      "bytes": 548,
+      "source_path": "GT_SNT/official/config/ogbn-products.yaml",
+      "source_sha256": "8e67125e1e234b3da028578beb27bbbdd5d1ae6695e148a3378b7c14c8cc2992"
+    },
+    "GT_SNT/official/config/physics.yaml": {
+      "sha256": "e61e6dec70347d7b6654df0e9da597ca7a74f27622e6df91cc272f5a2d016e3e",
+      "bytes": 509,
+      "source_path": "GT_SNT/official/config/physics.yaml",
+      "source_sha256": "e61e6dec70347d7b6654df0e9da597ca7a74f27622e6df91cc272f5a2d016e3e"
+    },
+    "GT_SNT/official/config/pubmed.yaml": {
+      "sha256": "7f258e3211340f9294ff00305b62391f0b970fd2b4c2a7e8a381d06ef3288195",
+      "bytes": 507,
+      "source_path": "GT_SNT/official/config/pubmed.yaml",
+      "source_sha256": "7f258e3211340f9294ff00305b62391f0b970fd2b4c2a7e8a381d06ef3288195"
+    },
+    "GT_SNT/official/dataset.py": {
+      "sha256": "a1cd1d79b55fc778a4042b74ad7fd462ba6b46416f346b1ac6a658df92289eca",
+      "bytes": 4984,
+      "source_path": "GT_SNT/official/dataset.py",
+      "source_sha256": "a1cd1d79b55fc778a4042b74ad7fd462ba6b46416f346b1ac6a658df92289eca"
+    },
+    "GT_SNT/official/functional/__init__.py": {
+      "sha256": "ea61e9f2c568b215d277ae580a0597ceae8915a17310bc61e04240095e783852",
+      "bytes": 66,
+      "source_path": "GT_SNT/official/functional/__init__.py",
+      "source_sha256": "ea61e9f2c568b215d277ae580a0597ceae8915a17310bc61e04240095e783852"
+    },
+    "GT_SNT/official/functional/loss.py": {
+      "sha256": "610729e22219f87e80f00b3c252a854989009110f4e569f44b5691c0a639f3fa",
+      "bytes": 1711,
+      "source_path": "GT_SNT/official/functional/loss.py",
+      "source_sha256": "610729e22219f87e80f00b3c252a854989009110f4e569f44b5691c0a639f3fa"
+    },
+    "GT_SNT/official/functional/metric.py": {
+      "sha256": "da5d3da52f6a30e01eb79b9bb6720b5f6655831e03b08112b10cfc7b8413eb8c",
+      "bytes": 1650,
+      "source_path": "GT_SNT/official/functional/metric.py",
+      "source_sha256": "da5d3da52f6a30e01eb79b9bb6720b5f6655831e03b08112b10cfc7b8413eb8c"
+    },
+    "GT_SNT/official/nn/__init__.py": {
+      "sha256": "cf081bcc288f02f331c6739e4a43867c24beadc94054219b265d93093cc1b50f",
+      "bytes": 24,
+      "source_path": "GT_SNT/official/nn/__init__.py",
+      "source_sha256": "cf081bcc288f02f331c6739e4a43867c24beadc94054219b265d93093cc1b50f"
+    },
+    "GT_SNT/official/nn/gtsnt.py": {
+      "sha256": "fbf0b7b96a6814d93fcb475b1a27e9a47dc8b448ce1f0d8fffea4fdfe1e269a4",
+      "bytes": 5649,
+      "source_path": "GT_SNT/official/nn/gtsnt.py",
+      "source_sha256": "fbf0b7b96a6814d93fcb475b1a27e9a47dc8b448ce1f0d8fffea4fdfe1e269a4"
+    },
+    "GT_SNT/official/nn/mpnn_conv.py": {
+      "sha256": "d093b6f10524eb50d5f0fbfcff91122057fc46171aaf14599956b31ca12a7d2d",
+      "bytes": 3540,
+      "source_path": "GT_SNT/official/nn/mpnn_conv.py",
+      "source_sha256": "d093b6f10524eb50d5f0fbfcff91122057fc46171aaf14599956b31ca12a7d2d"
+    },
+    "GT_SNT/official/nn/smha_conv.py": {
+      "sha256": "77d7d28db4e9b8d5345a0fbe4d239d67671de72111112656e6343621066eb66e",
+      "bytes": 3806,
+      "source_path": "GT_SNT/official/nn/smha_conv.py",
+      "source_sha256": "77d7d28db4e9b8d5345a0fbe4d239d67671de72111112656e6343621066eb66e"
+    },
+    "GT_SNT/official/nn/snt_conv.py": {
+      "sha256": "74d9d7fed335a7a2f453f86b118a31d2792fa1dfb0c604314c536f2a1f0bad30",
+      "bytes": 2471,
+      "source_path": "GT_SNT/official/nn/snt_conv.py",
+      "source_sha256": "74d9d7fed335a7a2f453f86b118a31d2792fa1dfb0c604314c536f2a1f0bad30"
+    },
+    "GT_SNT/official/node_cls.py": {
+      "sha256": "61f1406ff8474833dca0cce1245e66e96f70b844e270188f055644a206fbfb56",
+      "bytes": 3174,
+      "source_path": "GT_SNT/official/node_cls.py",
+      "source_sha256": "61f1406ff8474833dca0cce1245e66e96f70b844e270188f055644a206fbfb56"
+    },
+    "GT_SNT/official/node_cls_subgraph.py": {
+      "sha256": "5a0c445f844df75d902de73a5b4ce1870dc62d73312432db0d85304ea9d1b186",
+      "bytes": 4598,
+      "source_path": "GT_SNT/official/node_cls_subgraph.py",
+      "source_sha256": "5a0c445f844df75d902de73a5b4ce1870dc62d73312432db0d85304ea9d1b186"
+    },
+    "GT_SNT/official/README.md": {
+      "sha256": "7d16ae8d0274483dcd198bba15c9c7cd444bda7ceef1bbddd8164ae805aa4460",
+      "bytes": 1046,
+      "source_path": "GT_SNT/official/README.md",
+      "source_sha256": "7d16ae8d0274483dcd198bba15c9c7cd444bda7ceef1bbddd8164ae805aa4460"
+    },
+    "GT_SNT/official/utils.py": {
+      "sha256": "d98f0a3886c5887e1f27114eae5338163be649557d22835caa2296595cd934e3",
+      "bytes": 5609,
+      "source_path": "GT_SNT/official/utils.py",
+      "source_sha256": "d98f0a3886c5887e1f27114eae5338163be649557d22835caa2296595cd934e3"
+    },
+    "GT_SNT/README.md": {
+      "sha256": "547447f138301693259387bb31bfb8f5bc54e58c06950b83f076191d8fcf2cc5",
+      "bytes": 9818,
+      "source_path": "GT_SNT/README.md",
+      "source_sha256": "547447f138301693259387bb31bfb8f5bc54e58c06950b83f076191d8fcf2cc5"
+    },
+    "GT_SNT/run_gtsnt.sh": {
+      "sha256": "e35709035ec0de418b5d819af0aadfdd672421ca62e5a4b15a8b5e7cdcb79d4c",
+      "bytes": 9440,
+      "source_path": "GT_SNT/run_gtsnt.sh",
+      "source_sha256": "e35709035ec0de418b5d819af0aadfdd672421ca62e5a4b15a8b5e7cdcb79d4c"
+    },
+    "GT_SNT/UPSTREAM.txt": {
+      "sha256": "72422bc36d2d3381fdeee2c58b2f698f155e5bad393c34c22d2f9b6e94e8ac59",
+      "bytes": 508,
+      "source_path": "GT_SNT/UPSTREAM.txt",
+      "source_sha256": "72422bc36d2d3381fdeee2c58b2f698f155e5bad393c34c22d2f9b6e94e8ac59"
+    },
+    "HubGT/check_fetch.py": {
+      "sha256": "d8210c269fbd68c8a7b1f7aedf1b4a306bbc975d16e20ec5704a5e3ee28f1a01",
+      "bytes": 3969,
+      "source_path": "HubGT/check_fetch.py",
+      "source_sha256": "d8210c269fbd68c8a7b1f7aedf1b4a306bbc975d16e20ec5704a5e3ee28f1a01"
+    },
+    "HubGT/dataset_process/__init__.py": {
+      "sha256": "95d96b7a80df31de9014881f49ce5f73d012502580aa2b9769fe7ce22e9aaee9",
+      "bytes": 231,
+      "source_path": "HubGT/dataset_process/__init__.py",
+      "source_sha256": "95d96b7a80df31de9014881f49ce5f73d012502580aa2b9769fe7ce22e9aaee9"
+    },
+    "HubGT/dataset_process/gen_norm.py": {
+      "sha256": "380d7b83ef13d6c3e9fd9ce25ef5cfaed977b5183f17ac50bdd66a3907fe0279",
+      "bytes": 4769,
+      "source_path": "HubGT/dataset_process/gen_norm.py",
+      "source_sha256": "380d7b83ef13d6c3e9fd9ce25ef5cfaed977b5183f17ac50bdd66a3907fe0279"
+    },
+    "HubGT/dataset_process/linkx.py": {
+      "sha256": "bd5770ef095a2492f08ccf25db93dc6e876623e0669d4e3ec43d311105dd864a",
+      "bytes": 8651,
+      "source_path": "HubGT/dataset_process/linkx.py",
+      "source_sha256": "bd5770ef095a2492f08ccf25db93dc6e876623e0669d4e3ec43d311105dd864a"
+    },
+    "HubGT/dataset_process/utils.py": {
+      "sha256": "d4cc5f01da1124420fe8d588e2e930cfd5cd3eefc498989595d4d7130ffbbce4",
+      "bytes": 2754,
+      "source_path": "HubGT/dataset_process/utils.py",
+      "source_sha256": "d4cc5f01da1124420fe8d588e2e930cfd5cd3eefc498989595d4d7130ffbbce4"
+    },
+    "HubGT/dataset_process/yandex.py": {
+      "sha256": "a2c3af85faa1ea7f44852c0a0284fa3a521711bf02cb2bb76ae601618a547869",
+      "bytes": 2276,
+      "source_path": "HubGT/dataset_process/yandex.py",
+      "source_sha256": "a2c3af85faa1ea7f44852c0a0284fa3a521711bf02cb2bb76ae601618a547869"
+    },
+    "HubGT/hubgt_collate.py": {
+      "sha256": "e8cc32589cc564df56c35c1fc2bfd5264c48a451f3c1841633682c7a95cc481d",
+      "bytes": 2729,
+      "source_path": "HubGT/hubgt_collate.py",
+      "source_sha256": "e8cc32589cc564df56c35c1fc2bfd5264c48a451f3c1841633682c7a95cc481d"
+    },
+    "HubGT/hubgt_npz.py": {
+      "sha256": "57788e7328450bceef158dbe104124bf73963d0f28b6f616ba3ca51c9b2d67f6",
+      "bytes": 15043,
+      "source_path": "HubGT/hubgt_npz.py",
+      "source_sha256": "4df3f8ef13d2520e57958c5ffc29639ae8f09d675202620915356170e3acb882"
+    },
+    "HubGT/load_data.py": {
+      "sha256": "21394995cffe63ebb228e1b195b29c1800ef6a99ec97e156fa29a954032e55fb",
+      "bytes": 12188,
+      "source_path": "HubGT/load_data.py",
+      "source_sha256": "21394995cffe63ebb228e1b195b29c1800ef6a99ec97e156fa29a954032e55fb"
+    },
+    "HubGT/main.py": {
+      "sha256": "d9a2a9476726df5d7deaba31d52ce70b1bb0f0d209afb36dced177802fc3aec5",
+      "bytes": 7755,
+      "source_path": "HubGT/main.py",
+      "source_sha256": "d9a2a9476726df5d7deaba31d52ce70b1bb0f0d209afb36dced177802fc3aec5"
+    },
+    "HubGT/main_param.py": {
+      "sha256": "0fd9ab938defe82347f3eb988ac8e8bf2b10a13f9af56ebb611c71dafeb5f8a0",
+      "bytes": 8212,
+      "source_path": "HubGT/main_param.py",
+      "source_sha256": "0fd9ab938defe82347f3eb988ac8e8bf2b10a13f9af56ebb611c71dafeb5f8a0"
+    },
+    "HubGT/main_tune.py": {
+      "sha256": "8fd3c9fd3e4f1315dca828fea18162538f37e0ca1bc829912f1bc91d8d432827",
+      "bytes": 7013,
+      "source_path": "HubGT/main_tune.py",
+      "source_sha256": "8fd3c9fd3e4f1315dca828fea18162538f37e0ca1bc829912f1bc91d8d432827"
+    },
+    "HubGT/model.py": {
+      "sha256": "ad1fcf0576a0ebc15c6b914d5f0d1d3e7b1d251cc333df8e9f489e70b737430e",
+      "bytes": 12177,
+      "source_path": "HubGT/model.py",
+      "source_sha256": "ad1fcf0576a0ebc15c6b914d5f0d1d3e7b1d251cc333df8e9f489e70b737430e"
+    },
+    "HubGT/Precompute/__init__.py": {
+      "sha256": "c3e4e59f95235f9d918c4ef223f3322187150625fb536acace78188618a3f68f",
+      "bytes": 31,
+      "source_path": "HubGT/Precompute/__init__.py",
+      "source_sha256": "c3e4e59f95235f9d918c4ef223f3322187150625fb536acace78188618a3f68f"
+    },
+    "HubGT/Precompute/kpll_cppext.cpp": {
+      "sha256": "a6745ced601529fe0c33c9c4d6009d02068ae8b30e36b1364fd9ccd635ec8ed3",
+      "bytes": 805879,
+      "source_path": "HubGT/Precompute/kpll_cppext.cpp",
+      "source_sha256": "a6745ced601529fe0c33c9c4d6009d02068ae8b30e36b1364fd9ccd635ec8ed3"
+    },
+    "HubGT/Precompute/kpll_cppext.pyx": {
+      "sha256": "287d7f86fe2f9b9e8d8055d33b1538431e2c82ff76fb95357b8277c226963d7c",
+      "bytes": 4221,
+      "source_path": "HubGT/Precompute/kpll_cppext.pyx",
+      "source_sha256": "287d7f86fe2f9b9e8d8055d33b1538431e2c82ff76fb95357b8277c226963d7c"
+    },
+    "HubGT/Precompute/LICENSE": {
+      "sha256": "e8db77552affdcd1834f2b337ab75d36de8a03d37968897f990d8a66d2491e35",
+      "bytes": 1558,
+      "source_path": "HubGT/Precompute/LICENSE",
+      "source_sha256": "e8db77552affdcd1834f2b337ab75d36de8a03d37968897f990d8a66d2491e35"
+    },
+    "HubGT/Precompute/ppll.h": {
+      "sha256": "924d3f7083bf06ac28483c70712510b7fa5d18beddc8db55521b7f976c49322f",
+      "bytes": 39765,
+      "source_path": "HubGT/Precompute/ppll.h",
+      "source_sha256": "924d3f7083bf06ac28483c70712510b7fa5d18beddc8db55521b7f976c49322f"
+    },
+    "HubGT/Precompute/setup.py": {
+      "sha256": "2952fae874b91d33f6e04d7aa88d9894f20886b96433934c82fb63b481238901",
+      "bytes": 508,
+      "source_path": "HubGT/Precompute/setup.py",
+      "source_sha256": "2952fae874b91d33f6e04d7aa88d9894f20886b96433934c82fb63b481238901"
+    },
+    "HubGT/preprocess.py": {
+      "sha256": "890b4d9fa9fe4ac575a9e1e3e50a19be907a883df444cdca03c309ae75b663e3",
+      "bytes": 3833,
+      "source_path": "HubGT/preprocess.py",
+      "source_sha256": "890b4d9fa9fe4ac575a9e1e3e50a19be907a883df444cdca03c309ae75b663e3"
+    },
+    "HubGT/README.md": {
+      "sha256": "39cfe5ac326f810aa00b53563c0507c669d321ff7fef125d5a732aacd2bcad8a",
+      "bytes": 1282,
+      "source_path": "HubGT/README.md",
+      "source_sha256": "39cfe5ac326f810aa00b53563c0507c669d321ff7fef125d5a732aacd2bcad8a"
+    },
+    "HubGT/run_hubgt.sh": {
+      "sha256": "e358b8f4bd3e04aaf48250c1adc66a64cfcaa5ce95d88cf37bf51fdaf7b2f83a",
+      "bytes": 7475,
+      "source_path": "HubGT/run_hubgt.sh",
+      "source_sha256": "e358b8f4bd3e04aaf48250c1adc66a64cfcaa5ce95d88cf37bf51fdaf7b2f83a"
+    },
+    "HubGT/scripts/param.sh": {
+      "sha256": "b63900e79e8a19b664380e036585fed1f16bd2beee2eb1499f2bb0737802fe60",
+      "bytes": 466,
+      "source_path": "HubGT/scripts/param.sh",
+      "source_sha256": "b63900e79e8a19b664380e036585fed1f16bd2beee2eb1499f2bb0737802fe60"
+    },
+    "HubGT/scripts/run.sh": {
+      "sha256": "429641032d9c715879beae21c4d6e0b975b2940f8473275d53f9f3dbac0f1dbc",
+      "bytes": 463,
+      "source_path": "HubGT/scripts/run.sh",
+      "source_sha256": "429641032d9c715879beae21c4d6e0b975b2940f8473275d53f9f3dbac0f1dbc"
+    },
+    "HubGT/scripts/tune.sh": {
+      "sha256": "ebf7dcb84d11b997572afbcba75beb905629fc6ddf73fe9e895bf868b0e72897",
+      "bytes": 456,
+      "source_path": "HubGT/scripts/tune.sh",
+      "source_sha256": "ebf7dcb84d11b997572afbcba75beb905629fc6ddf73fe9e895bf868b0e72897"
+    },
+    "HubGT/UPSTREAM.txt": {
+      "sha256": "71de8a3ae49b67d4810ea17f61d77a05148cdd035d31bb6dcb336266207816d7",
+      "bytes": 92,
+      "source_path": "HubGT/UPSTREAM.txt",
+      "source_sha256": "71de8a3ae49b67d4810ea17f61d77a05148cdd035d31bb6dcb336266207816d7"
+    },
+    "HubGT/utils/__init__.py": {
+      "sha256": "8ad2aed1891bf14619e420bc370593530129c8eb0a0ded4e739894acf3bbaa36",
+      "bytes": 512,
+      "source_path": "HubGT/utils/__init__.py",
+      "source_sha256": "8ad2aed1891bf14619e420bc370593530129c8eb0a0ded4e739894acf3bbaa36"
+    },
+    "HubGT/utils/checkpoint.py": {
+      "sha256": "00bf5b7084d50a70e07783518997f40b9c9e5c79ee7fe2e2a144098c11fe4c3b",
+      "bytes": 7620,
+      "source_path": "HubGT/utils/checkpoint.py",
+      "source_sha256": "00bf5b7084d50a70e07783518997f40b9c9e5c79ee7fe2e2a144098c11fe4c3b"
+    },
+    "HubGT/utils/collator.py": {
+      "sha256": "1e166efd0c924be66ad3b5a7672ea5213268f88e0c29063294e0ebb0e3049d92",
+      "bytes": 2889,
+      "source_path": "HubGT/utils/collator.py",
+      "source_sha256": "1e166efd0c924be66ad3b5a7672ea5213268f88e0c29063294e0ebb0e3049d92"
+    },
+    "HubGT/utils/config.py": {
+      "sha256": "12464272b21212d948fa088cc7458e7f88c578fff683ebdec6e60f99e8ba8736",
+      "bytes": 5974,
+      "source_path": "HubGT/utils/config.py",
+      "source_sha256": "4001afc7c128e15993d6d63caaab5e2f5d71d2f5e63ff5850b902137087ae026",
+      "release_adjustment": "Default independent training repetitions aligned to five; model and optimization unchanged."
+    },
+    "HubGT/utils/efficacy.py": {
+      "sha256": "67b27c2fc02e70dc9151727d03f280d92e6dfeffbf3b5d162b29eae1883d105e",
+      "bytes": 1685,
+      "source_path": "HubGT/utils/efficacy.py",
+      "source_sha256": "67b27c2fc02e70dc9151727d03f280d92e6dfeffbf3b5d162b29eae1883d105e"
+    },
+    "HubGT/utils/efficiency.py": {
+      "sha256": "50dcd8bc932533d886642a63e09e1004e0df29dfb240780cf7e1c3e74e367f57",
+      "bytes": 5069,
+      "source_path": "HubGT/utils/efficiency.py",
+      "source_sha256": "50dcd8bc932533d886642a63e09e1004e0df29dfb240780cf7e1c3e74e367f57"
+    },
+    "HubGT/utils/evaluator.py": {
+      "sha256": "dde069c69255a7108db526208042a3348e762fd404bae650775f3ef6821ff019",
+      "bytes": 2545,
+      "source_path": "HubGT/utils/evaluator.py",
+      "source_sha256": "dde069c69255a7108db526208042a3348e762fd404bae650775f3ef6821ff019"
+    },
+    "HubGT/utils/logger.py": {
+      "sha256": "b43bb529bb02d5b9fb31a3c158b9d43172de4367cb0b9caabcc79716fc667d00",
+      "bytes": 11573,
+      "source_path": "HubGT/utils/logger.py",
+      "source_sha256": "b43bb529bb02d5b9fb31a3c158b9d43172de4367cb0b9caabcc79716fc667d00"
+    },
+    "HubGT/utils/lr.py": {
+      "sha256": "9b4ff44e45455378479685f65417b472a008f3e83e7fd97eb79796d05386cbcd",
+      "bytes": 999,
+      "source_path": "HubGT/utils/lr.py",
+      "source_sha256": "9b4ff44e45455378479685f65417b472a008f3e83e7fd97eb79796d05386cbcd"
+    },
+    "NAGphormer/baseline_suite.py": {
+      "sha256": "47b204d661278291837a8211153be33d7506d4b64ee9a642f329766aae4ac30c",
+      "bytes": 56262,
+      "source_path": "NAGphormer/baseline_suite.py",
+      "source_sha256": "101b386ed0977d8aaecd74025e5122adb24d31d895992efee85a0798330c987e"
+    },
+    "NAGphormer/run_nagphormer.sh": {
+      "sha256": "10b4de2f5d931d604e1a09d5f8790d7a36e8a00d4e3398b2acaa445ff80ffb12",
+      "bytes": 9506,
+      "source_path": "NAGphormer/run_nagphormer.sh",
+      "source_sha256": "9f82f8e10dc336af18f6f9677758f94312fa8ceb24214530ecb0fa2ad7032a7c"
+    },
+    "NAGphormer/run_nagphormer_plus.sh": {
+      "sha256": "85556b22a60253ee31067fba92385c822c01b34dbf713ad97395fd1ac3d846cd",
+      "bytes": 860,
+      "source_path": "NAGphormer/run_nagphormer_plus.sh",
+      "source_sha256": "85556b22a60253ee31067fba92385c822c01b34dbf713ad97395fd1ac3d846cd"
+    },
+    "NLGT/nlgt_npz.py": {
+      "sha256": "fec1e914fa4a8b5b6652d837803e807e7c196fe201896dc852293531d174929d",
+      "bytes": 35026,
+      "source_path": "NLGT/nlgt_npz.py",
+      "source_sha256": "ab10ef7b283c7feab0e391a1ccee0afefd526a2890312927178ec8710652a947"
+    },
+    "NLGT/run_nlgt.sh": {
+      "sha256": "9cb9fc3f5e48087e05efe6fa0f6fb73c39eff2a38f33fb704ac7ff344c2b4d6d",
+      "bytes": 6794,
+      "source_path": "NLGT/run_nlgt.sh",
+      "source_sha256": "941d8e205bab94e5143ef44f42cd8c2d952932270172f1f5504b88eeb681e9b7"
+    },
+    "PolyFormer/CHANGELOG_ADAPTATION.md": {
+      "sha256": "504cae824091adcd2faefcff4a46d3cc1033f0fa3a9b85d569e16917077e2c37",
+      "bytes": 2126,
+      "source_path": "PolyFormer/CHANGELOG_ADAPTATION.md",
+      "source_sha256": "504cae824091adcd2faefcff4a46d3cc1033f0fa3a9b85d569e16917077e2c37"
+    },
+    "PolyFormer/OFFICIAL_CONFIG_NOTES.md": {
+      "sha256": "01670e9e9fd1d65e4658269b444c605f6ec8953f33973cea229384be6e9d6174",
+      "bytes": 1349,
+      "source_path": "PolyFormer/OFFICIAL_CONFIG_NOTES.md",
+      "source_sha256": "01670e9e9fd1d65e4658269b444c605f6ec8953f33973cea229384be6e9d6174"
+    },
+    "PolyFormer/polyformer_node/__init__.py": {
+      "sha256": "7344f3f7e377f5200b04991acbd2fe5c955e44b386dc680faeb0d70742db4284",
+      "bytes": 80,
+      "source_path": "PolyFormer/polyformer_node/__init__.py",
+      "source_sha256": "7344f3f7e377f5200b04991acbd2fe5c955e44b386dc680faeb0d70742db4284"
+    },
+    "PolyFormer/polyformer_node/aggregate_repeats.py": {
+      "sha256": "3d8d67281be56c5708ce4978d0cef95e3be1387baab510bc2f174a0d6ef56a62",
+      "bytes": 4065,
+      "source_path": "PolyFormer/polyformer_node/aggregate_repeats.py",
+      "source_sha256": "3d8d67281be56c5708ce4978d0cef95e3be1387baab510bc2f174a0d6ef56a62"
+    },
+    "PolyFormer/polyformer_node/configs.py": {
+      "sha256": "668fb6a3ebd156767f3048ff58b16af8bc72c9ee8e6a8f437ff8c917dbdc6eb0",
+      "bytes": 12189,
+      "source_path": "PolyFormer/polyformer_node/configs.py",
+      "source_sha256": "668fb6a3ebd156767f3048ff58b16af8bc72c9ee8e6a8f437ff8c917dbdc6eb0"
+    },
+    "PolyFormer/polyformer_node/data.py": {
+      "sha256": "b7192271fe94d0b84e547972be88e43f1fbca2bce96c7409156445dbea4dd2d3",
+      "bytes": 10043,
+      "source_path": "PolyFormer/polyformer_node/data.py",
+      "source_sha256": "b7192271fe94d0b84e547972be88e43f1fbca2bce96c7409156445dbea4dd2d3"
+    },
+    "PolyFormer/polyformer_node/metrics.py": {
+      "sha256": "1f3b2d67ef07861034248021c38c5fee1a7350fee069dcbfa437713053e99aab",
+      "bytes": 1698,
+      "source_path": "PolyFormer/polyformer_node/metrics.py",
+      "source_sha256": "1f3b2d67ef07861034248021c38c5fee1a7350fee069dcbfa437713053e99aab"
+    },
+    "PolyFormer/polyformer_node/model.py": {
+      "sha256": "1c1937cc0849cae4b8d1c5957e4437335c3f0ad3c668c3e742977e69d61e0d21",
+      "bytes": 5652,
+      "source_path": "PolyFormer/polyformer_node/model.py",
+      "source_sha256": "1c1937cc0849cae4b8d1c5957e4437335c3f0ad3c668c3e742977e69d61e0d21"
+    },
+    "PolyFormer/polyformer_node/train_polyformer.py": {
+      "sha256": "59d1ced4e5c8517732f1fb82b9cb74c9434c52a3b812f52a83e791885135682e",
+      "bytes": 18795,
+      "source_path": "PolyFormer/polyformer_node/train_polyformer.py",
+      "source_sha256": "6df0381e791b4e0a161daf6933da1f466935d387bd9d0d8f838dab35393394c4"
+    },
+    "PolyFormer/README.md": {
+      "sha256": "f48267a07fa11c63f1482cf47e86b520aa85e3db68e1b0a5c24a95810cb621d2",
+      "bytes": 6719,
+      "source_path": "PolyFormer/README.md",
+      "source_sha256": "f48267a07fa11c63f1482cf47e86b520aa85e3db68e1b0a5c24a95810cb621d2"
+    },
+    "PolyFormer/requirements.txt": {
+      "sha256": "84c6bc7a57667f2c97e86568ca5a2e829404d19fc8c6755beaeaeb25a6e5a82b",
+      "bytes": 31,
+      "source_path": "PolyFormer/requirements.txt",
+      "source_sha256": "84c6bc7a57667f2c97e86568ca5a2e829404d19fc8c6755beaeaeb25a6e5a82b"
+    },
+    "PolyFormer/run_polyformer.sh": {
+      "sha256": "8e2b93c2d81c0b7254bc9f3d9a1786b94c649a44b390dc5696ac8c22e5b84e54",
+      "bytes": 5258,
+      "source_path": "PolyFormer/run_polyformer.sh",
+      "source_sha256": "8e2b93c2d81c0b7254bc9f3d9a1786b94c649a44b390dc5696ac8c22e5b84e54"
+    },
+    "PolyFormer/scripts/run_all_common.sh": {
+      "sha256": "15f17ec997c0524998153cf79918012c393034786bfe58604ce1fcfb7e213a6c",
+      "bytes": 462,
+      "source_path": "PolyFormer/scripts/run_all_common.sh",
+      "source_sha256": "15f17ec997c0524998153cf79918012c393034786bfe58604ce1fcfb7e213a6c"
+    },
+    "PolyFormer/scripts/run_citeseer.sh": {
+      "sha256": "749261df57629c75a8fb17fa5ae4b18d97d7e216533f46d9ecaadb1e3fd771fc",
+      "bytes": 154,
+      "source_path": "PolyFormer/scripts/run_citeseer.sh",
+      "source_sha256": "749261df57629c75a8fb17fa5ae4b18d97d7e216533f46d9ecaadb1e3fd771fc"
+    },
+    "PolyFormer/scripts/run_flickr.sh": {
+      "sha256": "60088b842b1bd598db2c3ba15c52c169c5af7a32afffb90a0ac3c814d635d714",
+      "bytes": 216,
+      "source_path": "PolyFormer/scripts/run_flickr.sh",
+      "source_sha256": "60088b842b1bd598db2c3ba15c52c169c5af7a32afffb90a0ac3c814d635d714"
+    },
+    "PolyFormer/scripts/run_ogbn_arxiv.sh": {
+      "sha256": "f91da0cd3ddbb436bcc17a084404c4f87bb441c728fe523f5b7aa5dac9f11134",
+      "bytes": 220,
+      "source_path": "PolyFormer/scripts/run_ogbn_arxiv.sh",
+      "source_sha256": "f91da0cd3ddbb436bcc17a084404c4f87bb441c728fe523f5b7aa5dac9f11134"
+    },
+    "PolyFormer/scripts/run_pubmed.sh": {
+      "sha256": "3010657925f3d09af93315aa51ceac15d43ca35f31d7f3a840c251078a1520db",
+      "bytes": 152,
+      "source_path": "PolyFormer/scripts/run_pubmed.sh",
+      "source_sha256": "3010657925f3d09af93315aa51ceac15d43ca35f31d7f3a840c251078a1520db"
+    },
+    "PolyFormer/scripts/run_questions.sh": {
+      "sha256": "cf4b1c43695bdb0cef643a16228ac26238acc7a3bf8608266062be3a5699c5f2",
+      "bytes": 212,
+      "source_path": "PolyFormer/scripts/run_questions.sh",
+      "source_sha256": "cf4b1c43695bdb0cef643a16228ac26238acc7a3bf8608266062be3a5699c5f2"
+    },
+    "PolyFormer/scripts/run_reddit.sh": {
+      "sha256": "541bcc61639314f341b620ad0b5b9988c896de58f3314b4a0c7f3e1d8be2c8ce",
+      "bytes": 216,
+      "source_path": "PolyFormer/scripts/run_reddit.sh",
+      "source_sha256": "541bcc61639314f341b620ad0b5b9988c896de58f3314b4a0c7f3e1d8be2c8ce"
+    },
+    "PolyFormer/scripts/run_roman_empire.sh": {
+      "sha256": "247b970e6fa55c4fca1e528cc4ed3863d540bb7e5c72a627729a0fef95f447c1",
+      "bytes": 158,
+      "source_path": "PolyFormer/scripts/run_roman_empire.sh",
+      "source_sha256": "247b970e6fa55c4fca1e528cc4ed3863d540bb7e5c72a627729a0fef95f447c1"
+    },
+    "PolyFormer/scripts/run_tolokers.sh": {
+      "sha256": "9fef6f7fbeafbd819950dc59e93814d9e71dcb7f835186e161ebfa88e95098a4",
+      "bytes": 211,
+      "source_path": "PolyFormer/scripts/run_tolokers.sh",
+      "source_sha256": "9fef6f7fbeafbd819950dc59e93814d9e71dcb7f835186e161ebfa88e95098a4"
+    },
+    "README.md": {
+      "sha256": "47c7954b0fbed0f7d3c99931be0424b1efa0038378cb656b1ebc5d1b0db81a86",
+      "bytes": 1233,
+      "origin": "release integration/documentation"
+    },
+    "registry.json": {
+      "sha256": "cbde23005a0e064d724e2edfa70e712f2d49da0372daf89edb70b2f10a8be308",
+      "bytes": 5883,
+      "origin": "release integration/documentation"
+    },
+    "SGFormer/run_sgformer.sh": {
+      "sha256": "c93ebc0b00dae468b1e3965e18a29a90b459e5894cda4dbec285108c3b617cd0",
+      "bytes": 9965,
+      "source_path": "SGFormer/run_sgformer.sh",
+      "source_sha256": "c93ebc0b00dae468b1e3965e18a29a90b459e5894cda4dbec285108c3b617cd0"
+    },
+    "SGFormer/scripts/run_flickr.sh": {
+      "sha256": "6d777fa2e6368acd75367b9eb03c03e2988532e30d544abaabe509f3f71b98af",
+      "bytes": 477,
+      "source_path": "SGFormer/scripts/run_flickr.sh",
+      "source_sha256": "6d777fa2e6368acd75367b9eb03c03e2988532e30d544abaabe509f3f71b98af"
+    },
+    "SGFormer/scripts/run_ogbn_arxiv.sh": {
+      "sha256": "e59d6367724a05f95e4239acb24420633b30deaace37e0c25bd955b1ca1ab036",
+      "bytes": 502,
+      "source_path": "SGFormer/scripts/run_ogbn_arxiv.sh",
+      "source_sha256": "e59d6367724a05f95e4239acb24420633b30deaace37e0c25bd955b1ca1ab036"
+    },
+    "SGFormer/scripts/run_tolokers.sh": {
+      "sha256": "42731573c6803b8e1b3cd2cc3dac9491bcc3f585bb29890ffd2401102f01c2d1",
+      "bytes": 505,
+      "source_path": "SGFormer/scripts/run_tolokers.sh",
+      "source_sha256": "42731573c6803b8e1b3cd2cc3dac9491bcc3f585bb29890ffd2401102f01c2d1"
+    },
+    "SGFormer/sgformer_node/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "SGFormer/sgformer_node/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "SGFormer/sgformer_node/aggregate_repeats.py": {
+      "sha256": "9d6eb7d5ddd5962f83fa818278ea3c77bf68dd80d9cf65914e7d37f7f4f2b41d",
+      "bytes": 3832,
+      "source_path": "SGFormer/sgformer_node/aggregate_repeats.py",
+      "source_sha256": "9d6eb7d5ddd5962f83fa818278ea3c77bf68dd80d9cf65914e7d37f7f4f2b41d"
+    },
+    "SGFormer/sgformer_node/data.py": {
+      "sha256": "779889597613456c01ebca8d08966c837dd06984d71e48de2836f56e0ffce275",
+      "bytes": 5469,
+      "source_path": "SGFormer/sgformer_node/data.py",
+      "source_sha256": "779889597613456c01ebca8d08966c837dd06984d71e48de2836f56e0ffce275"
+    },
+    "SGFormer/sgformer_node/metrics.py": {
+      "sha256": "d6355e1aeca154d43129b77a70c3d3084dc816a72bebd2cee19226c2982b5054",
+      "bytes": 2108,
+      "source_path": "SGFormer/sgformer_node/metrics.py",
+      "source_sha256": "d6355e1aeca154d43129b77a70c3d3084dc816a72bebd2cee19226c2982b5054"
+    },
+    "SGFormer/sgformer_node/model.py": {
+      "sha256": "5239792640d8aeb263de9465981150077995d8f40fac396acbc8865aedf1b990",
+      "bytes": 11441,
+      "source_path": "SGFormer/sgformer_node/model.py",
+      "source_sha256": "5239792640d8aeb263de9465981150077995d8f40fac396acbc8865aedf1b990"
+    },
+    "SGFormer/sgformer_node/train_sgformer.py": {
+      "sha256": "861ccccdf5843a98b9985958fabdb34e9625d210564a735c9720b7d4018790a1",
+      "bytes": 21360,
+      "source_path": "SGFormer/sgformer_node/train_sgformer.py",
+      "source_sha256": "37c1dd687082dc98f4a6102b6ac3fbbec384ec171e0e0fa5017132a56d9a5d8d"
+    },
+    "SwapGT/cmd.sh": {
+      "sha256": "8ff0651fbeb95149c8507c4fc59f9006e4bd32b9cfd30bc2ab6893a17389ee6d",
+      "bytes": 3567,
+      "source_path": "SwapGT/cmd.sh",
+      "source_sha256": "8ff0651fbeb95149c8507c4fc59f9006e4bd32b9cfd30bc2ab6893a17389ee6d"
+    },
+    "SwapGT/data.py": {
+      "sha256": "fcf0649faf0571bbee768585a6826fcfb492aafa890947c7f2bfc3ab1063eb3c",
+      "bytes": 711,
+      "source_path": "SwapGT/data.py",
+      "source_sha256": "fcf0649faf0571bbee768585a6826fcfb492aafa890947c7f2bfc3ab1063eb3c"
+    },
+    "SwapGT/early_stop.py": {
+      "sha256": "31d7cef4f5a2215bdc05d767255bfa6604e4ac3435a503a6a35cf9ec5e45f1d1",
+      "bytes": 3099,
+      "source_path": "SwapGT/early_stop.py",
+      "source_sha256": "31d7cef4f5a2215bdc05d767255bfa6604e4ac3435a503a6a35cf9ec5e45f1d1"
+    },
+    "SwapGT/lr.py": {
+      "sha256": "815b357e5580f078b3874dcce08926aa0c39c95ae7f0107449530d6ca706af1f",
+      "bytes": 1135,
+      "source_path": "SwapGT/lr.py",
+      "source_sha256": "815b357e5580f078b3874dcce08926aa0c39c95ae7f0107449530d6ca706af1f"
+    },
+    "SwapGT/model.py": {
+      "sha256": "757063f2c704f5cc8d410b78696611505656aaf2b1df2da9d8faa4e4c7bb5572",
+      "bytes": 7956,
+      "source_path": "SwapGT/model.py",
+      "source_sha256": "757063f2c704f5cc8d410b78696611505656aaf2b1df2da9d8faa4e4c7bb5572"
+    },
+    "SwapGT/README.md": {
+      "sha256": "563c14f60b06102f21877904251ff2c05cb97b4e9ebcba4447c75ffab542b10e",
+      "bytes": 1572,
+      "source_path": "SwapGT/README.md",
+      "source_sha256": "563c14f60b06102f21877904251ff2c05cb97b4e9ebcba4447c75ffab542b10e"
+    },
+    "SwapGT/run_swapgt.sh": {
+      "sha256": "646e3bb92b26270b216e262fa087b3fe44e228ef4288e0bd99dea60f08184844",
+      "bytes": 5812,
+      "source_path": "SwapGT/run_swapgt.sh",
+      "source_sha256": "646e3bb92b26270b216e262fa087b3fe44e228ef4288e0bd99dea60f08184844"
+    },
+    "SwapGT/swapgt_npz.py": {
+      "sha256": "11fc3b7fc649a60af5d88b1af64b41d45e52f3710e359b348f18f00b74bfb794",
+      "bytes": 11651,
+      "source_path": "SwapGT/swapgt_npz.py",
+      "source_sha256": "25f883a0091256c6398c4d86d7c79b9c3cb007a88acb7ead2a11dfa53b82bb26"
+    },
+    "SwapGT/train_test_sh.py": {
+      "sha256": "054665bac5c08c5012940289e51ff96e803cc74ca2660169f7997f438da6b153",
+      "bytes": 10785,
+      "source_path": "SwapGT/train_test_sh.py",
+      "source_sha256": "53748dc72419cd86d7f578a90aea32fcc19dd48db9f892901994005132ed19b0",
+      "release_adjustment": "Default independent training repetitions aligned to five; model and optimization unchanged."
+    },
+    "SwapGT/UPSTREAM.txt": {
+      "sha256": "475af331e4a8b00683e480b5433b97399a2d4bdee626952cec1f03e10989c7c8",
+      "bytes": 96,
+      "source_path": "SwapGT/UPSTREAM.txt",
+      "source_sha256": "475af331e4a8b00683e480b5433b97399a2d4bdee626952cec1f03e10989c7c8"
+    },
+    "SwapGT/utils.py": {
+      "sha256": "0f4b02fbbcd4a427582073d4b3f9cf901e533e817a10b899c1f9b796a74a067b",
+      "bytes": 14964,
+      "source_path": "SwapGT/utils.py",
+      "source_sha256": "0f4b02fbbcd4a427582073d4b3f9cf901e533e817a10b899c1f9b796a74a067b"
+    },
+    "VCR_Graphormer/data.py": {
+      "sha256": "2de541bb812f5dbf8a8f84610f851fa193061e99ee45c36edf1b2ac22fcfdd1f",
+      "bytes": 12791,
+      "source_path": "VCR_Graphormer/data.py",
+      "source_sha256": "2de541bb812f5dbf8a8f84610f851fa193061e99ee45c36edf1b2ac22fcfdd1f"
+    },
+    "VCR_Graphormer/data_utils_hetero.py": {
+      "sha256": "09a7f512ba04f6a107d487662edb6c47c434f4f135bea7aa709adf1a941a57e4",
+      "bytes": 8757,
+      "source_path": "VCR_Graphormer/data_utils_hetero.py",
+      "source_sha256": "09a7f512ba04f6a107d487662edb6c47c434f4f135bea7aa709adf1a941a57e4"
+    },
+    "VCR_Graphormer/dataset_hetero.py": {
+      "sha256": "1f02f67a2b80a3e20270685ba9cb5350b25eb7bca8e47a35ac88ac5b516f00b2",
+      "bytes": 16284,
+      "source_path": "VCR_Graphormer/dataset_hetero.py",
+      "source_sha256": "1f02f67a2b80a3e20270685ba9cb5350b25eb7bca8e47a35ac88ac5b516f00b2"
+    },
+    "VCR_Graphormer/early_stop.py": {
+      "sha256": "31d7cef4f5a2215bdc05d767255bfa6604e4ac3435a503a6a35cf9ec5e45f1d1",
+      "bytes": 3099,
+      "source_path": "VCR_Graphormer/early_stop.py",
+      "source_sha256": "31d7cef4f5a2215bdc05d767255bfa6604e4ac3435a503a6a35cf9ec5e45f1d1"
+    },
+    "VCR_Graphormer/environment.yml": {
+      "sha256": "c647300cf2252739e2d83af5c4e26163184e44f91fb72efb8a5ce217ced81742",
+      "bytes": 6991,
+      "source_path": "VCR_Graphormer/environment.yml",
+      "source_sha256": "c647300cf2252739e2d83af5c4e26163184e44f91fb72efb8a5ce217ced81742"
+    },
+    "VCR_Graphormer/load_data_hetero.py": {
+      "sha256": "5f6950bbaa494b0f7423c841929f6c0a645017cd78dece4b88a532a1b362c58c",
+      "bytes": 3877,
+      "source_path": "VCR_Graphormer/load_data_hetero.py",
+      "source_sha256": "5f6950bbaa494b0f7423c841929f6c0a645017cd78dece4b88a532a1b362c58c"
+    },
+    "VCR_Graphormer/look_hetero.py": {
+      "sha256": "6054b0c1df5a71148c4af28ed4b4c5eeb7e5097cba3755b166b96ec247936c07",
+      "bytes": 798,
+      "source_path": "VCR_Graphormer/look_hetero.py",
+      "source_sha256": "6054b0c1df5a71148c4af28ed4b4c5eeb7e5097cba3755b166b96ec247936c07"
+    },
+    "VCR_Graphormer/lr.py": {
+      "sha256": "bd4df3465a69ed021df2a6ef109e4f2b5be6a4c1a222752d48d693b390848d4a",
+      "bytes": 1137,
+      "source_path": "VCR_Graphormer/lr.py",
+      "source_sha256": "bd4df3465a69ed021df2a6ef109e4f2b5be6a4c1a222752d48d693b390848d4a"
+    },
+    "VCR_Graphormer/model.py": {
+      "sha256": "43b1bebc8ee5b35eeb9aba6fe8f90a3d63c8bc242da17472cc29538687d4ff46",
+      "bytes": 6384,
+      "source_path": "VCR_Graphormer/model.py",
+      "source_sha256": "43b1bebc8ee5b35eeb9aba6fe8f90a3d63c8bc242da17472cc29538687d4ff46"
+    },
+    "VCR_Graphormer/parse_hetero.py": {
+      "sha256": "396ab74ff49ad0e81c490c48ba8463c89501b2537cd439e6211a1242c7f2e111",
+      "bytes": 3488,
+      "source_path": "VCR_Graphormer/parse_hetero.py",
+      "source_sha256": "dbe898558705c09c86c839e7fe277aae79268cdb5f9ed8fe40bb9a598640f647",
+      "release_adjustment": "Default independent training repetitions aligned to five; model and optimization unchanged."
+    },
+    "VCR_Graphormer/README.md": {
+      "sha256": "4f695f670a7bcdf22b749b4e340f9c670a224e990a8a043e917c4090dbfda4e4",
+      "bytes": 1439,
+      "source_path": "VCR_Graphormer/README.md",
+      "source_sha256": "4f695f670a7bcdf22b749b4e340f9c670a224e990a8a043e917c4090dbfda4e4"
+    },
+    "VCR_Graphormer/README_BILGT_VCR.md": {
+      "sha256": "994efe951b0a5de1a510eaafe643f06998d8b334fbdbf7eaee8480940a80bdad",
+      "bytes": 4734,
+      "source_path": "VCR_Graphormer/README_BILGT_VCR.md",
+      "source_sha256": "994efe951b0a5de1a510eaafe643f06998d8b334fbdbf7eaee8480940a80bdad"
+    },
+    "VCR_Graphormer/requirements_bilgt_minimal.txt": {
+      "sha256": "b3b1f7d63594e23e30aa8a84289a003c56ca7c384038691334021f55645e59b6",
+      "bytes": 99,
+      "source_path": "VCR_Graphormer/requirements_bilgt_minimal.txt",
+      "source_sha256": "b3b1f7d63594e23e30aa8a84289a003c56ca7c384038691334021f55645e59b6"
+    },
+    "VCR_Graphormer/run_vcr_graphormer.sh": {
+      "sha256": "20c77669be828aad2bd17708eab9d24f28ce6a8eadc72793b8539e0dc3bb6b1d",
+      "bytes": 9289,
+      "source_path": "VCR_Graphormer/run_vcr_graphormer.sh",
+      "source_sha256": "34c589c41dbed5ed5b455fcc84e20a8c7cf7c05ba691de6ab8495e80816984b0"
+    },
+    "VCR_Graphormer/scripts/nohup_vcr_examples.sh": {
+      "sha256": "a44293bf44ecbd66566b05c894e4b57dfaa095ed20eed9af61ca70342fce913a",
+      "bytes": 930,
+      "source_path": "VCR_Graphormer/scripts/nohup_vcr_examples.sh",
+      "source_sha256": "a44293bf44ecbd66566b05c894e4b57dfaa095ed20eed9af61ca70342fce913a"
+    },
+    "VCR_Graphormer/train.py": {
+      "sha256": "3e6fc3ddaed049d843e9e8e99a7ae9a5095d390cbc6fce7efc953f2993da5a54",
+      "bytes": 9039,
+      "source_path": "VCR_Graphormer/train.py",
+      "source_sha256": "3e6fc3ddaed049d843e9e8e99a7ae9a5095d390cbc6fce7efc953f2993da5a54"
+    },
+    "VCR_Graphormer/train_hetero.py": {
+      "sha256": "94e5d3e175df922dae5994b380c7a0524dc33d1061cbc47b61db86521ee4995f",
+      "bytes": 8272,
+      "source_path": "VCR_Graphormer/train_hetero.py",
+      "source_sha256": "94e5d3e175df922dae5994b380c7a0524dc33d1061cbc47b61db86521ee4995f"
+    },
+    "VCR_Graphormer/utils.py": {
+      "sha256": "0db90590cd89ed179861333fb369de6f776b309383016315e57f9835850e3874",
+      "bytes": 15892,
+      "source_path": "VCR_Graphormer/utils.py",
+      "source_sha256": "0db90590cd89ed179861333fb369de6f776b309383016315e57f9835850e3874"
+    },
+    "VCR_Graphormer/vcr_bilgt_baseline.py": {
+      "sha256": "ce80bc6c3f36986d44c8258802936f17ba9b6dc2702a3030c7960044c7325520",
+      "bytes": 22618,
+      "source_path": "VCR_Graphormer/vcr_bilgt_baseline.py",
+      "source_sha256": "ea0bbfb1b7960ae413e53fece362a81f46c9d66ce8702e10574638b0c0566ecb"
+    },
+    "VCR_Graphormer/vcr_bilgt_data.py": {
+      "sha256": "393ad063e297e56b29ea2e2a2760d526d5e055e31e4c22da066aae9fd782ac6d",
+      "bytes": 7710,
+      "source_path": "VCR_Graphormer/vcr_bilgt_data.py",
+      "source_sha256": "393ad063e297e56b29ea2e2a2760d526d5e055e31e4c22da066aae9fd782ac6d"
+    },
+    "VCR_Graphormer/vcr_tokenization.py": {
+      "sha256": "9373b0c792ced746ecc8e05a2dfde509c93b4aa237e9f2c404559e8c6e55fc35",
+      "bytes": 18275,
+      "source_path": "VCR_Graphormer/vcr_tokenization.py",
+      "source_sha256": "9373b0c792ced746ecc8e05a2dfde509c93b4aa237e9f2c404559e8c6e55fc35"
+    }
+  },
+  "snapshot_hash_algorithm": "SHA256 of UTF-8 JSON(files, sort_keys=True, separators=(comma,colon), ensure_ascii=False)"
+}
